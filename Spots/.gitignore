@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# SwiftPM
+/.build/
+.swiftpm/
+
+# CocoaPods (si no usas, bórralo)
+Pods/
+
+# Carthage (si no usas, bórralo)
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ⚠️ Normalmente SÍ se comitea
+# GoogleService-Info.plist

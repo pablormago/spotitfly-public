@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277EAB652E902F2B00412A3F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 277EAB642E902F2B00412A3F /* Localizable.xcstrings */; };
+		27D605952E66C6DB00EDEAE0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 27D605942E66C6DB00EDEAE0 /* FirebaseAuth */; };
+		27D605972E66C6DB00EDEAE0 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 27D605962E66C6DB00EDEAE0 /* FirebaseCore */; };
+		27D605992E66C6DB00EDEAE0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 27D605982E66C6DB00EDEAE0 /* FirebaseFirestore */; };
+		27D6059B2E66C6DB00EDEAE0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 27D6059A2E66C6DB00EDEAE0 /* FirebaseStorage */; };
+		27E3C15C2EA5FF24009C775A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 27E3C15B2EA5FF24009C775A /* FirebaseMessaging */; };
+		27FD2C332E8DBD9B00151C91 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 27FD2C322E8DBD9B00151C91 /* FirebaseFunctions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		277EAB642E902F2B00412A3F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		27D6055A2E66C33700EDEAE0 /* SpotItFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotItFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		27FD2D642E8E6DB300151C91 /* Exceptions for "Spots" folder in "Spots" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 27D605592E66C33700EDEAE0 /* Spots */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27D6055C2E66C33700EDEAE0 /* Spots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				27FD2D642E8E6DB300151C91 /* Exceptions for "Spots" folder in "Spots" target */,
+			);
+			path = Spots;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D605572E66C33700EDEAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E3C15C2EA5FF24009C775A /* FirebaseMessaging in Frameworks */,
+				27D605972E66C6DB00EDEAE0 /* FirebaseCore in Frameworks */,
+				27D6059B2E66C6DB00EDEAE0 /* FirebaseStorage in Frameworks */,
+				27FD2C332E8DBD9B00151C91 /* FirebaseFunctions in Frameworks */,
+				27D605952E66C6DB00EDEAE0 /* FirebaseAuth in Frameworks */,
+				27D605992E66C6DB00EDEAE0 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D605512E66C33700EDEAE0 = {
+			isa = PBXGroup;
+			children = (
+				277EAB642E902F2B00412A3F /* Localizable.xcstrings */,
+				27D6055C2E66C33700EDEAE0 /* Spots */,
+				27D6055B2E66C33700EDEAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27D6055B2E66C33700EDEAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D6055A2E66C33700EDEAE0 /* SpotItFly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D605592E66C33700EDEAE0 /* Spots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D605682E66C33A00EDEAE0 /* Build configuration list for PBXNativeTarget "Spots" */;
+			buildPhases = (
+				27D605562E66C33700EDEAE0 /* Sources */,
+				27D605572E66C33700EDEAE0 /* Frameworks */,
+				27D605582E66C33700EDEAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27D6055C2E66C33700EDEAE0 /* Spots */,
+			);
+			name = Spots;
+			packageProductDependencies = (
+				27D605942E66C6DB00EDEAE0 /* FirebaseAuth */,
+				27D605962E66C6DB00EDEAE0 /* FirebaseCore */,
+				27D605982E66C6DB00EDEAE0 /* FirebaseFirestore */,
+				27D6059A2E66C6DB00EDEAE0 /* FirebaseStorage */,
+				27FD2C322E8DBD9B00151C91 /* FirebaseFunctions */,
+				27E3C15B2EA5FF24009C775A /* FirebaseMessaging */,
+			);
+			productName = Spots;
+			productReference = 27D6055A2E66C33700EDEAE0 /* SpotItFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D605522E66C33700EDEAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					27D605592E66C33700EDEAE0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 27D605552E66C33700EDEAE0 /* Build configuration list for PBXProject "Spots" */;
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 27D605512E66C33700EDEAE0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27D6055B2E66C33700EDEAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D605592E66C33700EDEAE0 /* Spots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D605582E66C33700EDEAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277EAB652E902F2B00412A3F /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D605562E66C33700EDEAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27D605662E66C33A00EDEAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D605672E66C33A00EDEAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D605692E66C33A00EDEAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Spots/Spots.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spots/Preview Content\"";
+				DEVELOPMENT_TEAM = XR75YD5JPH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpotItFly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceso a la cámara para que puedas añadir fotos y vídeos a tus spots y chats.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Necesitamos acceso a tus archivos para que puedas compartir documentos en los chats.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usamos Face ID para confirmar tu identidad antes de entrar al panel de administrador";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos tu ubicación para mostrar spots cercanos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Necesitamos acceso al micrófono para grabar audio en tus vídeos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos guardar fotos o vídeos editados en tu galería.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Necesitamos acceso a tu galería para que puedas seleccionar fotos y vídeos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablormago.spotitfly;
+				PRODUCT_NAME = SpotItFly;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D6056A2E66C33A00EDEAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Spots/Spots.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spots/Preview Content\"";
+				DEVELOPMENT_TEAM = XR75YD5JPH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spots/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpotItFly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos acceso a la cámara para que puedas añadir fotos y vídeos a tus spots y chats.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "Necesitamos acceso a tus archivos para que puedas compartir documentos en los chats.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Usamos Face ID para confirmar tu identidad antes de entrar al panel de administrador";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos tu ubicación para mostrar spots cercanos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Necesitamos acceso al micrófono para grabar audio en tus vídeos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitamos guardar fotos o vídeos editados en tu galería.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Necesitamos acceso a tu galería para que puedas seleccionar fotos y vídeos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablormago.spotitfly;
+				PRODUCT_NAME = SpotItFly;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D605552E66C33700EDEAE0 /* Build configuration list for PBXProject "Spots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D605662E66C33A00EDEAE0 /* Debug */,
+				27D605672E66C33A00EDEAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D605682E66C33A00EDEAE0 /* Build configuration list for PBXNativeTarget "Spots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D605692E66C33A00EDEAE0 /* Debug */,
+				27D6056A2E66C33A00EDEAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27D605942E66C6DB00EDEAE0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		27D605962E66C6DB00EDEAE0 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		27D605982E66C6DB00EDEAE0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		27D6059A2E66C6DB00EDEAE0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		27E3C15B2EA5FF24009C775A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		27FD2C322E8DBD9B00151C91 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D605932E66C6DB00EDEAE0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27D605522E66C33700EDEAE0 /* Project object */;
+}

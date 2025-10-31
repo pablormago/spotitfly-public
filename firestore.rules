@@ -1,0 +1,128 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // --- USERS ---
+    match /users/{uid} {
+      allow read: if true;
+      // Crea/actualiza solo el propio usuario
+      allow create, update: if isSignedIn() && request.auth.uid == uid;
+
+      // Subcolección usada para "unread spots"
+      match /spotReads/{docId} {
+        allow read, write: if isSignedIn() && request.auth.uid == uid;
+      }
+      // Subcolección usada para "favoritos"
+      match /favorites/{spotId} {
+        allow read, write: if isSignedIn() && request.auth.uid == uid;
+      }
+    }
+
+    // --- SPOTS ---
+    match /spots/{spotId} {
+      allow read: if true;
+
+      // Crear → logado y que createdBy == uid
+      allow create: if isSignedIn()
+        && request.resource.data.createdBy == request.auth.uid
+        // Inicializar visibilidad pública por defecto (si la envías desde cliente)
+        && !(request.resource.data.keys().hasAny(['visibility','moderation']))
+        ;
+
+      // Actualizar:
+      // - Creador puede editar (pero NO puede tocar visibility ni moderation)
+      // - Otros logados solo rating & contadores (como tenías)
+      allow update: if isSignedIn() && (
+        // Creador
+        (
+          resource.data.createdBy == request.auth.uid
+          &&
+          !request.resource.data.diff(resource.data).changedKeys().hasAny(['visibility', 'moderation'])
+        )
+        ||
+        // Otros: solo campos de rating/contadores
+        request.resource.data.diff(resource.data).changedKeys().hasOnly([
+          'ratings', 'rating', 'averageRating', 'ratingsCount',
+          'commentCount', 'lastCommentAt'
+        ])
+      );
+
+      // Borrar → solo creador
+      allow delete: if isSignedIn() && resource.data.createdBy == request.auth.uid;
+
+      // --- COMMENTS ---
+      match /comments/{commentId} {
+        allow read: if true;
+
+        // Crear → logado y que authorId == uid
+        allow create: if isSignedIn()
+          && request.resource.data.authorId == request.auth.uid
+          // No permitir que el cliente ponga visibility/moderation al crear
+          && !(request.resource.data.keys().hasAny(['visibility','moderation']))
+          ;
+
+        // Editar → solo autor y sin tocar visibility/moderation
+        allow update: if isSignedIn()
+          && resource.data.authorId == request.auth.uid
+          && !request.resource.data.diff(resource.data).changedKeys().hasAny(['visibility','moderation']);
+
+        // Borrar → solo autor (no cambia campos)
+        allow delete: if isSignedIn()
+          && resource.data.authorId == request.auth.uid;
+      }
+    }
+
+    // --- CHATS ---
+    match /chats/{chatId} {
+
+      // 🔑 Necesario para que Storage rules hagan get(/databases/.../chats/{chatId})
+      allow get: if isSignedIn()
+        && request.auth.uid in resource.data.participants;
+
+      // Lectura/listado desde cliente (consultas) → solo participantes
+      allow list, read: if isSignedIn()
+        && request.auth.uid in resource.data.participants;
+
+      // Actualizar/borrar → solo participantes
+      allow update, delete: if isSignedIn()
+        && request.auth.uid in resource.data.participants;
+
+      // Crear → logado y el creador debe estar en participants
+      allow create: if isSignedIn()
+        && request.auth.uid in request.resource.data.participants;
+
+      // --- MESSAGES ---
+      match /messages/{msgId} {
+        // Leer → solo participantes
+        allow read: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants;
+
+        // Crear → participante y senderId == uid (mensajes de soporte los genera la Function vía Admin SDK)
+        allow create: if isSignedIn()
+          && request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants
+          && request.resource.data.senderId == request.auth.uid;
+
+        // Borrar → solo autor del mensaje
+        allow delete: if isSignedIn()
+          && resource.data.senderId == request.auth.uid;
+      }
+    }
+
+    // --- REPORTS ---
+    match /reports/{reportId} {
+      // Crear → autenticado + reporterId == uid + validación mínima de payload
+      allow create: if isSignedIn()
+        && request.resource.data.reporterId == request.auth.uid
+        && request.resource.data.type in ['comment','spot','user']
+        && request.resource.data.targetId is string
+        && request.resource.data.reason is string;
+
+      // Solo backend/admin (Admin SDK) puede leer/actualizar/borrar
+      allow read, update, delete: if false;
+    }
+  }
+}

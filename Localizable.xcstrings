@@ -1,0 +1,1030 @@
+{
+  "sourceLanguage" : "es",
+  "strings" : {
+    "" : {
+
+    },
+    " " : {
+
+    },
+    " %lld" : {
+
+    },
+    "—" : {
+
+    },
+    "— Sin foto seleccionada —" : {
+
+    },
+    "¿Borrar este spot?" : {
+
+    },
+    "¿Borrar grupo “%@”?" : {
+
+    },
+    "¿Borrar mensaje?" : {
+
+    },
+    "¿Cerrar sesión de administrador?" : {
+
+    },
+    "¿Eliminar comentario?" : {
+
+    },
+    "¿Has olvidado tu contraseña?" : {
+
+    },
+    "¿Revocar el enlace de invitación?" : {
+
+    },
+    "¿Salir del grupo?" : {
+
+    },
+    "¿Seguro que quieres cerrar sesión?" : {
+
+    },
+    "¿Seguro que quieres eliminar este comentario?" : {
+
+    },
+    "¿Ves algo que incumple estas normas? Usa el botón **Reportar**." : {
+
+    },
+    "· %@" : {
+
+    },
+    "· editado" : {
+
+    },
+    "%@ %@ • %@ • %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@ • %3$@ • %4$@"
+          }
+        }
+      }
+    },
+    "%@ • %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ • %2$@"
+          }
+        }
+      }
+    },
+    "%lf, %lf" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lf, %2$lf"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld / %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "%lld de %lld" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld de %2$lld"
+          }
+        }
+      }
+    },
+    "%lld mensajes no leídos" : {
+
+    },
+    "%lld miembros" : {
+
+    },
+    "••••••••" : {
+
+    },
+    "⚠️ %@" : {
+
+    },
+    "⚠️ Aviso" : {
+
+    },
+    "⚠️ No hay usuario autenticado" : {
+
+    },
+    "❌ Error: %@" : {
+
+    },
+    "👆 Arriba deberías ver el texto con colores, enlace clicable y email." : {
+
+    },
+    "👋 Hola, %@" : {
+
+    },
+    "📂 %@" : {
+
+    },
+    "📍 %@" : {
+
+    },
+    "📝" : {
+
+    },
+    "🔍 Test de renderizado HTML" : {
+
+    },
+    "🔮 Oráculo" : {
+
+    },
+    "1 mensaje no leído" : {
+
+    },
+    "15 días" : {
+
+    },
+    "Abrir todos los comentarios" : {
+
+    },
+    "Acceso" : {
+
+    },
+    "Acceso (opcional)" : {
+
+    },
+    "Acceso administrador" : {
+
+    },
+    "Acceso de administrador" : {
+
+    },
+    "Activa la ubicación para ver spots cercanos" : {
+
+    },
+    "Activar notificaciones" : {
+
+    },
+    "Adjuntar" : {
+
+    },
+    "Admin" : {
+
+    },
+    "Ahora no" : {
+
+    },
+    "Ajustes" : {
+
+    },
+    "Ajustes > Privacidad > Localización" : {
+
+    },
+    "Añadir" : {
+
+    },
+    "Añadir (%lld)" : {
+
+    },
+    "Añadir miembros" : {
+
+    },
+    "Añadir spot" : {
+
+    },
+    "App de navegación" : {
+
+    },
+    "Archivo" : {
+
+    },
+    "Atrás" : {
+
+    },
+    "Aviso importante" : {
+
+    },
+    "Aviso importante: verifica siempre la normativa vigente. Actúa bajo tu responsabilidad." : {
+
+    },
+    "Back" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atrás"
+          }
+        }
+      }
+    },
+    "Bandeja de soporte" : {
+
+    },
+    "Bloqueado" : {
+
+    },
+    "Bloquear" : {
+
+    },
+    "Bloqueos" : {
+
+    },
+    "Bloqueos (tuyos)" : {
+
+    },
+    "Borrar" : {
+
+    },
+    "Borrar búsqueda" : {
+
+    },
+    "Borrar grupo" : {
+
+    },
+    "Buscando…" : {
+
+    },
+    "Buscar en este chat" : {
+
+    },
+    "Buscar por nombre o usuario…" : {
+
+    },
+    "Buscar por nombre, categoría o localidad" : {
+
+    },
+    "Buscar spots, categorías, descripción o localidad" : {
+
+    },
+    "Buscar usuario…" : {
+
+    },
+    "Buscar usuarios" : {
+
+    },
+    "Cámara" : {
+
+    },
+    "Cambiar foto" : {
+
+    },
+    "Cancelar" : {
+
+    },
+    "Cargando contexto…" : {
+
+    },
+    "Cargando mensajes…" : {
+
+    },
+    "Cargando Restricciones…" : {
+
+    },
+    "Cargando vista previa…" : {
+
+    },
+    "Cargar más…" : {
+
+    },
+    "Carrete" : {
+
+    },
+    "Categoría" : {
+
+    },
+    "Categoría por defecto" : {
+
+    },
+    "Cerca de mí" : {
+
+    },
+    "Cerrar" : {
+
+    },
+    "Cerrar sesión" : {
+
+    },
+    "Cerrar sesión admin" : {
+
+    },
+    "Chat ajeno 🚫 (id inventado)" : {
+
+    },
+    "Chat propio OK (usa realChatId)" : {
+
+    },
+    "Chat real: %@" : {
+
+    },
+    "Chats" : {
+
+    },
+    "Chats – Leer chat AJENO (id inventado)" : {
+
+    },
+    "Chats ocultos" : {
+
+    },
+    "Código (8 caracteres)" : {
+
+    },
+    "Comentarios" : {
+
+    },
+    "Comentarios en mis spots" : {
+
+    },
+    "Comentarios reportados" : {
+
+    },
+    "Comments – Borrar comentario AJENO (dummy id)" : {
+
+    },
+    "Comments – Crear comentario (en sampleSpot)" : {
+
+    },
+    "Cómo acceder" : {
+
+    },
+    "Compartir en chat…" : {
+
+    },
+    "Compartir JSON limpio" : {
+
+    },
+    "Compartir spot" : {
+
+    },
+    "Configuración del grupo" : {
+
+    },
+    "Contenido falso/incorrecto" : {
+
+    },
+    "Contenido inapropiado" : {
+
+    },
+    "Continuar" : {
+
+    },
+    "Contraseña" : {
+
+    },
+    "Coordenadas" : {
+
+    },
+    "Copiar" : {
+
+    },
+    "Copiar enlace" : {
+
+    },
+    "Crear cuenta" : {
+
+    },
+    "Crear enlace de invitación" : {
+
+    },
+    "Crear grupo" : {
+
+    },
+    "Cuando envíes un mensaje a otro usuario, aparecerá aquí." : {
+
+    },
+    "Datos personales" : {
+
+    },
+    "Debes aceptar las Normas" : {
+
+    },
+    "Debug Rules" : {
+
+    },
+    "Desbloquear" : {
+
+    },
+    "Descripción" : {
+
+    },
+    "Detalle Restricción" : {
+
+    },
+    "Detalles" : {
+
+    },
+    "Discurso de odio/Insultos" : {
+
+    },
+    "Disponible" : {
+
+    },
+    "Editando mensaje" : {
+
+    },
+    "Editar" : {
+
+    },
+    "Editar comentario" : {
+
+    },
+    "Editar spot" : {
+
+    },
+    "Ej. -3.7038" : {
+
+    },
+    "Ej. 40.4168" : {
+
+    },
+    "Ej.: ESP-XXXX-YYYY" : {
+
+    },
+    "El Tiempo (15 días)" : {
+
+    },
+    "Elegir foto" : {
+
+    },
+    "Elegir foto de perfil" : {
+
+    },
+    "Eliminar" : {
+
+    },
+    "Email" : {
+
+    },
+    "Email actual" : {
+
+    },
+    "Email: %@" : {
+
+    },
+    "Enlace activo" : {
+
+    },
+    "Entrar" : {
+
+    },
+    "Enviar" : {
+
+    },
+    "Eres el propietario. Al salir, la propiedad se transferirá automáticamente a un admin (si queda) o al miembro más antiguo." : {
+
+    },
+    "Escribe un comentario…" : {
+
+    },
+    "Esta acción no se puede deshacer." : {
+
+    },
+    "Estándar" : {
+
+    },
+    "Estas normas te ayudan a usar Spots con respeto y seguridad. Al usar la app, aceptas cumplirlas.\n\n**No permitido**\n• Spam o promoción engañosa  \n• Insultos, acoso, amenazas o incitación al odio  \n• Contenido sexualmente explícito o violento  \n• Información falsa que pueda causar daño (ubicación errónea, accesos peligrosos, etc.)  \n• Revelar datos personales de terceros sin permiso  \n• Publicar material con derechos de autor sin autorización\n\n**Spots y descripciones**\n• Verifica la ubicación, accesos y restricciones antes de publicar  \n• Indica riesgos y limitaciones cuando existan  \n• No subas imágenes de otras personas sin su consentimiento\n\n**Comentarios y chat**\n• Debate con respeto, sin ataques personales  \n• Reporta contenido inadecuado: mantén la comunidad limpia\n\n**Seguridad**\n• Respeta la normativa local (zonas restringidas, NOTAM, parques, etc.)  \n• Evita poner en peligro a personas, fauna o patrimonio\n\n**Moderación**\nLos reportes pueden derivar en edición o eliminación de contenido y/o suspensión de cuentas." : {
+
+    },
+    "Este dato se guarda únicamente en tu dispositivo. No se sube a la nube ni a Firestore." : {
+
+    },
+    "Este grupo ha alcanzado el límite de miembros." : {
+
+    },
+    "Estilo de mapa" : {
+
+    },
+    "Exportar JSON limpio" : {
+
+    },
+    "Firestore" : {
+
+    },
+    "Foto" : {
+
+    },
+    "Foto o Video" : {
+
+    },
+    "Guardar" : {
+
+    },
+    "Guardar cambios" : {
+
+    },
+    "Guardar spot" : {
+
+    },
+    "Hacer público" : {
+
+    },
+    "He leído y acepto las Normas de la comunidad" : {
+
+    },
+    "Híbrido" : {
+
+    },
+    "ID: %@" : {
+
+    },
+    "Imagen (opcional)" : {
+
+    },
+    "Importación completada" : {
+
+    },
+    "Importación fallida" : {
+
+    },
+    "Importador de Spots (Admin)" : {
+
+    },
+    "Importar desde Google Maps" : {
+
+    },
+    "Iniciar sesión" : {
+
+    },
+    "Introduce tu email" : {
+
+    },
+    "Introduce tu email y contraseña para abrir el panel interno." : {
+
+    },
+    "Invitaciones" : {
+
+    },
+    "Ir" : {
+
+    },
+    "Ir a coordenadas" : {
+
+    },
+    "La información de contexto aéreo (restricciones, NOTAM, accesos y otros datos) puede no ser completa, exacta ni estar actualizada en todo momento. **Debes verificar siempre** la normativa y las condiciones vigentes antes de volar y **actuar bajo tu propia responsabilidad**. **SpotItFly no asume responsabilidad** por el uso de esta información ni por daños o sanciones derivados de la actividad realizada." : {
+
+    },
+    "La información de contexto aéreo puede no ser 100% precisa ni estar actualizada. Cada usuario es responsable de verificarla. SpotItFly no se hace responsable del uso que se haga de estos datos." : {
+
+    },
+    "Latitud" : {
+
+    },
+    "Localizando…" : {
+
+    },
+    "Logs" : {
+
+    },
+    "Longitud" : {
+
+    },
+    "Marcar Leído" : {
+
+    },
+    "Mejor fecha (opcional)" : {
+
+    },
+    "Mensaje: %@" : {
+
+    },
+    "Mensajes" : {
+
+    },
+    "Messages – Enviar en chat AJENO (id inventado)" : {
+
+    },
+    "Miembros" : {
+
+    },
+    "Mis Spots" : {
+
+    },
+    "Mis Spots favoritos" : {
+
+    },
+    "Moderación · Comentarios" : {
+
+    },
+    "Moderación · Spots" : {
+
+    },
+    "Motivo del reporte" : {
+
+    },
+    "Motivo: %@" : {
+
+    },
+    "Nadie podrá usar el enlace actual para unirse." : {
+
+    },
+    "Navegación" : {
+
+    },
+    "No disponible" : {
+
+    },
+    "No leído" : {
+
+    },
+    "No se encontraron datos de restricciones." : {
+
+    },
+    "No se encontraron usuarios" : {
+
+    },
+    "No se ha detectado ninguna app de navegación." : {
+
+    },
+    "No tienes usuarios bloqueados" : {
+
+    },
+    "Nombre" : {
+
+    },
+    "Nombre de usuario" : {
+
+    },
+    "Nombre del grupo" : {
+
+    },
+    "Nombre del spot" : {
+
+    },
+    "Nombre: %@" : {
+
+    },
+    "Normas de la comunidad" : {
+
+    },
+    "Nota: para usar el panel, debes iniciar sesión como %@." : {
+
+    },
+    "NOTAM" : {
+
+    },
+    "Notificaciones" : {
+
+    },
+    "Nuevo chat" : {
+
+    },
+    "Nuevo grupo" : {
+
+    },
+    "Nuevo spot" : {
+
+    },
+    "Nuevos comentarios" : {
+
+    },
+    "Número de operador" : {
+
+    },
+    "Ocultar" : {
+
+    },
+    "Ocultar teclado" : {
+
+    },
+    "Ofensivo o abuso" : {
+
+    },
+    "OK" : {
+
+    },
+    "Para continuar es necesario aceptar las Normas de la comunidad." : {
+
+    },
+    "Perfil" : {
+
+    },
+    "Perfil ajeno 🚫" : {
+
+    },
+    "Perfil propio OK" : {
+
+    },
+    "Permisos necesarios" : {
+
+    },
+    "Primer vértice: lat %lf, lon %lf" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Primer vértice: lat %1$lf, lon %2$lf"
+          }
+        }
+      }
+    },
+    "Promover a admin" : {
+
+    },
+    "Quitar" : {
+
+    },
+    "Quitar admin" : {
+
+    },
+    "Quitar foto" : {
+
+    },
+    "Razón: %@" : {
+
+    },
+    "Recargar datos" : {
+
+    },
+    "Recargar IDs" : {
+
+    },
+    "Recibirás un email para restablecer tu contraseña." : {
+
+    },
+    "Recuerda seguir las normas de la comunidad: nada de spam, lenguaje ofensivo ni contenido inapropiado. Puedes reportar comentarios desde el menú contextual." : {
+
+    },
+    "Recuerda seguir las normas de la comunidad: nada de spam, lenguaje ofensivo ni contenido inapropiado. Puedes reportar mensajes y usuarios desde su perfil." : {
+
+    },
+    "Reemplazar" : {
+
+    },
+    "Reenviar a…" : {
+
+    },
+    "Reenviar email de verificación" : {
+
+    },
+    "Reenviar…" : {
+
+    },
+    "Registrarse" : {
+
+    },
+    "Reintentar" : {
+
+    },
+    "Renombrar" : {
+
+    },
+    "Renombrar grupo" : {
+
+    },
+    "Reportar chat: Inapropiado" : {
+
+    },
+    "Reportar chat: Ofensivo" : {
+
+    },
+    "Reportar chat: Spam" : {
+
+    },
+    "Reportar Spot" : {
+
+    },
+    "Reportar usuario" : {
+
+    },
+    "Reportar: Inapropiado" : {
+
+    },
+    "Reportar: Ofensivo" : {
+
+    },
+    "Reportar: Spam" : {
+
+    },
+    "Reportes: %lld · Último: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reportes: %1$lld · Último: %2$@"
+          }
+        }
+      }
+    },
+    "Reportes: %lld • Estado: %@" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reportes: %1$lld • Estado: %2$@"
+          }
+        }
+      }
+    },
+    "Reports – Leer reporte (debe fallar)" : {
+
+    },
+    "Responder" : {
+
+    },
+    "Respondiendo" : {
+
+    },
+    "Restablecer contraseña" : {
+
+    },
+    "Restricciones" : {
+
+    },
+    "Resultados" : {
+
+    },
+    "Revisión" : {
+
+    },
+    "Revocar" : {
+
+    },
+    "Salir" : {
+
+    },
+    "Salir del grupo" : {
+
+    },
+    "Satélite" : {
+
+    },
+    "Se cerrará la sesión actual." : {
+
+    },
+    "Sé el primero en comentar…" : {
+
+    },
+    "Selecciona origen" : {
+
+    },
+    "Seleccionar foto" : {
+
+    },
+    "Seleccionar JSON de Google Maps" : {
+
+    },
+    "Sesión" : {
+
+    },
+    "Sesión actual: %@" : {
+
+    },
+    "Silenciar chat" : {
+
+    },
+    "Silenciar este grupo" : {
+
+    },
+    "Sin chats todavía" : {
+
+    },
+    "Sin foto" : {
+
+    },
+    "Sin hilos de soporte" : {
+
+    },
+    "Sin reportes de comentarios" : {
+
+    },
+    "Sin reportes de spots" : {
+
+    },
+    "Sin resultados" : {
+
+    },
+    "Sin usuarios reportados" : {
+
+    },
+    "Soporte" : {
+
+    },
+    "Spam" : {
+
+    },
+    "Spot" : {
+
+    },
+    "Spot (para comentar): %@" : {
+
+    },
+    "Spot ajeno (si hay): %@" : {
+
+    },
+    "Spots" : {
+
+    },
+    "Spots – Crear spot" : {
+
+    },
+    "Spots – Editar spot AJENO" : {
+
+    },
+    "Spots cercanos" : {
+
+    },
+    "Spots importados: %lld" : {
+
+    },
+    "Spots reportados" : {
+
+    },
+    "Storage" : {
+
+    },
+    "Subir a Firestore" : {
+
+    },
+    "Test get chat directo" : {
+
+    },
+    "tile: %@" : {
+
+    },
+    "Todavía no tienes Spots favoritos" : {
+
+    },
+    "Todos" : {
+
+    },
+    "Tú" : {
+
+    },
+    "Tu preferencia se guarda solo en este dispositivo." : {
+
+    },
+    "tu.email@dominio.com" : {
+
+    },
+    "Ubicación" : {
+
+    },
+    "UID: %@" : {
+
+    },
+    "Unirme" : {
+
+    },
+    "Unirse al grupo" : {
+
+    },
+    "Unirse al grupo %@" : {
+
+    },
+    "Unirse por invitación" : {
+
+    },
+    "Usar Face ID / Touch ID" : {
+
+    },
+    "Usuario logado: %@" : {
+
+    },
+    "Usuarios" : {
+
+    },
+    "Usuarios reportados" : {
+
+    },
+    "Valoración" : {
+
+    },
+    "Ver en mapa" : {
+
+    },
+    "Ver Mapa" : {
+
+    },
+    "Ver Normas de la comunidad" : {
+
+    },
+    "Verifica tu identidad" : {
+
+    },
+    "Visible" : {
+
+    },
+    "VOTAR" : {
+
+    },
+    "Ya tengo cuenta" : {
+
+    },
+    "YouTube Video" : {
+
+    }
+  },
+  "version" : "1.0"
+}

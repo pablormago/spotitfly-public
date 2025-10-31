@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "58D94D78-483F-46CD-80A8-D2EA33C4DEDF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Spots.xcodeproj",
+      "identifier" : "27D605592E66C33700EDEAE0",
+      "name" : "Spots"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "SpotsUITestsLaunchTests"
+      ],
+      "target" : {
+        "containerPath" : "container:Spots.xcodeproj",
+        "identifier" : "27A2C33F2E8C8D1800092F31",
+        "name" : "SpotsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

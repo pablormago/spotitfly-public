@@ -1,0 +1,40 @@
+# === SECRETOS Y CREDENCIALES (NUNCA AL PÚBLICO) ===
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.pem
+*.p8
+keystore.properties
+serviceAccountKey.json
+firebase-admin*.json
+**/credentials.json
+**/client_secret*.json
+GoogleService-Info*.plist
+google-services*.json
+fastlane/.env
+fastlane/Appfile
+fastlane/Matchfile
+functions/.runtimeconfig.json
+functions/.env
+functions/.env.*
+functions/serviceAccountKey.json
+
+# === COSAS QUE SOBRAN EN EL MIRROR ===
+# iOS/Xcode
+DerivedData/
+.build/
+Pods/
+
+# Android / IDE
+.gradle/
+.idea/
+**/build/
+
+# Node
+node_modules/
+
+# Mac / sistema
+.DS_Store
